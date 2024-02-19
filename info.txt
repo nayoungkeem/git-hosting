@@ -1,0 +1,9 @@
+api_key : 
+
+-- 깃허브 초기 레포지토리 생성 및 연결
+git init
+git add ./
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nayoungkeem/git-hosting.git
+git push -u origin main
